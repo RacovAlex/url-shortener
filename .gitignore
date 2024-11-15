@@ -1,0 +1,64 @@
+# Binary files for executables and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries created with `go test -c`
+*.test
+
+# Go coverage output files
+*.out
+
+# Dependency directories (uncomment below to include)
+# vendor/
+
+# IDE and editor configuration files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# Cached files
+.cache/
+*.cache
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Go module files (if using go mod)
+go.sum
+go.mod
+
+# Hidden files and directories
+.*.swp
+.*.swo
+
+# Temporary files from editors (e.g., Vim)
+*~
+*.swp
+
+# Documentation and output from documentation generators
+docs/
+public/
+
+# CI/CD system files (e.g., GitHub Actions)
+.github/workflows/*.yml
+
+# Other temporary files and build artifacts
+build/
+dist/
+
+# Docker files (if used)
+Dockerfile*
+docker-compose.yml
